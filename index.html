@@ -11,17 +11,29 @@ title: 乔戈里的博客
 </ul>
 
 
-<p>最新的纪录2</p>
+<p>最新的纪录1</p>
 <ul>
-{% for post in site.posts.tools %}
-　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% for post in paginator.posts %}
+    {% if post.tools1 != null %}
+    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% else %}
+
+    {% endif %}
+　　
 {% endfor %}
+
 </ul>
 
 
-<p>最新的纪录3</p>
+<p>最新的纪录2</p>
 <ul>
-{% for post in site.categories.tools %}
-　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.posts %}
+    {% if post.tools1 != null %}
+    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% else %}
+
+    {% endif %}
+　　
 {% endfor %}
+
 </ul>
