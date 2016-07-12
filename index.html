@@ -14,7 +14,7 @@ title: 乔戈里的博客
 <p>最新的纪录1</p>
 <ul>
 {% for post in site.posts %}
-     {% if post.categories contains 'tools1' %}
+     {% if site.categories contains 'tools1' %}
     <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% else %}
 
