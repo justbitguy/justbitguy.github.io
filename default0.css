@@ -19,6 +19,7 @@ a {color: #663;}
 a:hover {color: #993;}
 
 body {
+	background: #0D0D0D url(img/bg.gif) repeat-y center top;
 	color: #55554A;
 	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
 	margin: 0;
@@ -40,6 +41,7 @@ li {
 }
 
 code {
+	background: url(img/bgcode.gif);
 	border: 1px solid #060606;
 	color: #666;
 	display: block;
@@ -89,11 +91,12 @@ h1,h2,h3 {
 
 /* navigation */
 .navigation {
+	background: url(img/holder.jpg) no-repeat;
 	height: 100px;
 	padding: 0 16px;
 }
 .navigation a {
-	border-left: 1px solid #111;
+	border-left: 1px solid #111;	
 	color: #665;
 	float: right;
 	font: bold 1.2em "Trebuchet MS",sans-serif;
@@ -110,10 +113,12 @@ h1,h2,h3 {
 
 /* holders */
 .holder {
+	background: url(img/bgholder.jpg) repeat-y;
 	padding: 0 32px;
 }
 .holder_top,.footer {
 	clear: both;
+	background: url(img/holder.jpg) no-repeat;
 	height: 40px;
 }
 
