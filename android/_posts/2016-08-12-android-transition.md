@@ -1,10 +1,9 @@
 ---
 layout: post
 category: android
+title: Android Transition Animation
 date: 2016-08-12 16:46
 ---
-
-# Android Transition
 
 Android Transition框架主要运用在以下三种情况：
 
