@@ -14,7 +14,7 @@ Feel free to visit the blogs of our writers.
 [blog2](/blog2/index.html)
 [blog3](/blog3/index.html)
 [blog4](/blog4/index.html)
-
+[Android](/android/index.html)
 Thanks.
 
 
