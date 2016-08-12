@@ -4,9 +4,9 @@ category: android
 title: 'Android Transition'
 date: 2016-08-12 16:46
 ---
-###Android Transition Animation###
 
 Android Transition框架主要运用在以下三种情况：
+
 - Activity之间或者Fragment之间的过渡动画。
 - Activity之间或者Fragment之间共享元素的过渡动画。
 - Activity中布局元素的过渡动画。
@@ -14,6 +14,7 @@ Android Transition框架主要运用在以下三种情况：
 ## Scene
 定义: 记录了view hierarchy的状态；  
 作用：布局之间的切换:
+
 ```java
 	ViewGroup sceneRoot = (ViewGroup) findViewById(R.id.scene_root);
 	scene1 = Scene.getSceneForLayout(sceneRoot, R.layout.activity_animations_scene1, this);
@@ -58,7 +59,8 @@ mRootView.addView(mLabelText);
 ```
 
 自定义Transition:
-```
+
+```java
 public class CustomTransition extends Transition {
 
     @Override
@@ -74,6 +76,7 @@ public class CustomTransition extends Transition {
 }
 ```
 
-参考：
+参考
+
 -  [Animating Views Using Scenes and Transitions](https://developer.android.com/training/transitions/index.html)
 - [Android Transition Animation介绍](http://www.in-droid.com/2016/04/28/Android-Transition-Animation%E4%BB%8B%E7%BB%8D/)
