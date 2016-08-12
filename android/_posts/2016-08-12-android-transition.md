@@ -1,9 +1,10 @@
 ---
 layout: post
 category: android
-title: 'Android Transition'
 date: 2016-08-12 16:46
 ---
+
+# Android Transition
 
 Android Transition框架主要运用在以下三种情况：
 
@@ -76,7 +77,7 @@ public class CustomTransition extends Transition {
 }
 ```
 
-参考
+## 参考
 
 -  [Animating Views Using Scenes and Transitions](https://developer.android.com/training/transitions/index.html)
 - [Android Transition Animation介绍](http://www.in-droid.com/2016/04/28/Android-Transition-Animation%E4%BB%8B%E7%BB%8D/)
