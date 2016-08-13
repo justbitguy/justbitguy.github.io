@@ -2,9 +2,11 @@
 layout: default
 ---
 <div class="post">
-	<p><h2 class="meta">{{ page.title }}</h2></p>
-	<p class="meta">Date: {{ page.date }}</p>
-
+	<p class="blog_title">{{ page.title }}</p>
+	<hr>
+	<p class="blog_date">日期: {{ page.date }}</p>
+	<p class="blog_author">作者：{{page.author}} </p>
+	<p></p>
 	<div class="entry">
 		{{ content }}
 	</div>
